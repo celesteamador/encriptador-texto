@@ -1,9 +1,22 @@
 *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
     background: #F3F5FC;
     font-family: 'Inter';
     font-weight: 400;
     font-size: 32px;
     line-height: 150%;
+    min-height: 100vh;
+    position: relative;
+}
+
+header{
+    position: relative;
+    height: 80px;
 }
 
 .logo{
@@ -14,17 +27,37 @@
 
 main{
     display: flex;
-    margin-bottom: 30px;
-    margin-left: 80px;
+    gap: 40px;
+    padding: 20px 40px 0 40px;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: flex-start;
+    margin-top: 60px;
+}
+
+.seccion-entrada{
+    flex: 2;
+    display: flex;
+    flex-direction: column;
+}
+
+.seccion-resultado{
+    flex: 1;
+    min-width: 400px;
 }
 
 .textarea{
+    background: transparent;
     border: none;
     color: #0A3871;
+    font-size: 32px;
+    font-family: 'Inter';
     margin-top: 50px;
     text-transform: lowercase;
-    padding-left: 40px;
-    margin-left: 30px;
+    padding: 20px;
+    width: 100%;
+    min-height: 400px;
+    resize: vertical;
 }
 
 ::placeholder{ color: #0A3871;}
@@ -34,17 +67,20 @@ main{
 
 .mensaje{
     background: white;
-    background-image: url("img\frame7.png");
+    background-image: url("img/frame7.png");
     background-size: 240px;
     background-repeat: no-repeat;
-    background-position:center;
+    background-position: center;
     border: none;
     border-radius: 24px;
     color: #0A3871;
-    margin-left: 98px;
-    margin-top: 5px;
-    padding-left: 20px;
-    position: fixed;
+    padding: 20px;
+    width: 100%;
+    min-height: 500px;
+    font-size: 24px;
+    font-family: 'Inter';
+    resize: vertical;
+    box-shadow: 0px 24px 32px -8px rgba(0, 0, 0, 0.08);
 }
 
 .mensaje:focus{
@@ -52,8 +88,10 @@ main{
 }
 
 .botones{
-    display: fixed;
+    display: flex;
+    gap: 24px;
     margin-top: 18px;
+    flex-wrap: wrap;
 }
 
 .btn-encriptar{
@@ -63,7 +101,16 @@ main{
     color: white;
     cursor: pointer;
     height: 67px;
-    width: 328px;
+    flex: 1;
+    min-width: 280px;
+    font-size: 16px;
+    font-family: 'Inter';
+    transition: all 0.3s ease;
+}
+
+.btn-encriptar:hover{
+    background-color: #084067;
+    transform: scale(1.02);
 }
 
 .btn-desencriptar{
@@ -73,25 +120,88 @@ main{
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    width: 328px;
+    flex: 1;
+    min-width: 280px;
+    font-size: 16px;
+    font-family: 'Inter';
+    transition: all 0.3s ease;
+}
+
+.btn-desencriptar:hover{
+    background-color: #D8DFE8;
+    transform: scale(1.02);
 }
 
 .copiar{
+    background-color: #F3F5FC;
     border: 1px solid #0A3871;
     border-radius: 24px;
     color: #0A3871;
     cursor: pointer;
     height: 67px;
-    margin-left: 108px;
-    margin-top: 515px;
-    position: fixed;
-    width: 336px;
+    width: 100%;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Inter';
+    transition: all 0.3s ease;
+}
+
+.copiar:hover{
+    background-color: #D8DFE8;
+    transform: scale(1.02);
 }
 
 .informacion{
     color: #495057;
     font-size: 18px;
-    margin-bottom: 1px;
-    margin-top: 68px;
-    align-items:center;
+    margin: 16px 0;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.informacion img{
+    width: 16px;
+    height: 16px;
+    background: transparent;
+}
+
+/* Media Queries para responsividad */
+@media (max-width: 768px) {
+    .logo {
+        top: 15px;
+        left: 20px;
+        width: 28px;
+    }
+    
+    main {
+        flex-direction: column;
+        padding: 0 20px;
+        margin-top: 50px;
+    }
+    
+    .seccion-resultado {
+        min-width: auto;
+        width: 100%;
+    }
+    
+    .textarea {
+        font-size: 18px;
+        min-height: 300px;
+    }
+    
+    .mensaje {
+        min-height: 300px;
+        font-size: 18px;
+    }
+    
+    .botones {
+        flex-direction: column;
+    }
+    
+    .btn-encriptar,
+    .btn-desencriptar {
+        width: 100%;
+        min-width: auto;
+    }
 }
