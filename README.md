@@ -39,10 +39,19 @@ The encryption rules are as follows:
 - Clean and user-friendly interface
 - Responsive design for all devices
 
-### 📸 Screenshot
+### 📸 Screenshots
+
+#### Desktop Version
 <div align="center">
-  <img src="img/screenshots/image.png" alt="Desktop Screenshot" width="69.5%" style="margin-right: 20px;" />
-  <img src="img/screenshots/mobile.jpg" alt="Mobile Screenshot" width="22.5%" />
+  <img src="img/screenshots/desktop.png" alt="Desktop Version - Text Encoder/Decoder Interface" width="80%" />
+  <p><em>Desktop interface showing the text encryption application with full layout</em></p>
+</div>
+
+#### Mobile Version
+<div align="center">
+  <img src="img/screenshots/mobile1.jpg" alt="Mobile Version - Input Screen" width="30%" style="margin-right: 20px;" />
+  <img src="img/screenshots/mobile2.jpg" alt="Mobile Version - Result Screen" width="30%" />
+  <p><em>Mobile responsive design showing input screen (left) and result screen (right)</em></p>
 </div>
 
 ### Project structure
@@ -54,8 +63,9 @@ encriptador-texto/
 │   ├─ frame7.png
 │   ├─ logo.png
 │   └─ screenshots/
-│       ├─ image.png
-│       └─ mobile.jpg
+│       ├─ desktop.png
+│       ├─ mobile1.jpg
+│       └─ mobile2.jpg
 ├─ index.html
 ├─ script.js
 ├─ style.css
@@ -135,10 +145,19 @@ Las reglas de encriptación son las siguientes:
 - Interfaz limpia y fácil de usar
 - Diseño responsivo para todos los dispositivos
 
-### 📸 Captura de pantalla
+### 📸 Capturas de pantalla
+
+#### Versión de Escritorio
 <div align="center">
-  <img src="img/screenshots/image.png" alt="Captura de Escritorio" width="69.5%" style="margin-right: 20px;" />
-  <img src="img/screenshots/mobile.jpg" alt="Captura Móvil" width="22.5%" />
+  <img src="img/screenshots/desktop.png" alt="Versión de Escritorio - Interfaz del Encriptador de Texto" width="80%" />
+  <p><em>Interfaz de escritorio mostrando la aplicación de encriptación de texto con diseño completo</em></p>
+</div>
+
+#### Versión Móvil
+<div align="center">
+  <img src="img/screenshots/mobile1.jpg" alt="Versión Móvil - Pantalla de Entrada" width="30%" style="margin-right: 20px;" />
+  <img src="img/screenshots/mobile2.jpg" alt="Versión Móvil - Pantalla de Resultado" width="30%" />
+  <p><em>Diseño responsivo móvil mostrando pantalla de entrada (izquierda) y pantalla de resultado (derecha)</em></p>
 </div>
 
 ### Estructura del proyecto
@@ -150,8 +169,9 @@ encriptador-texto/
 │   ├─ frame7.png
 │   ├─ logo.png
 │   └─ screenshots/
-│       ├─ image.png
-│       └─ mobile.jpg
+│       ├─ desktop.png
+│       ├─ mobile1.jpg
+│       └─ mobile2.jpg
 ├─ index.html
 ├─ script.js
 ├─ style.css
