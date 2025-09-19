@@ -42,7 +42,7 @@ The encryption rules are as follows:
 ### 📸 Screenshot
 <div align="center">
   <img src="img/screenshots/image.png" alt="Desktop Screenshot" width="69.5%" style="margin-right: 20px;" />
-  <img src="img/screenshots/mobile-screenshot.png" alt="Mobile Screenshot" width="22.5%" />
+  <img src="img/screenshots/mobile.jpg" alt="Mobile Screenshot" width="22.5%" />
 </div>
 
 ### Project structure
@@ -55,7 +55,7 @@ encriptador-texto/
 │   ├─ logo.png
 │   └─ screenshots/
 │       ├─ image.png
-│       └─ mobile.png
+│       └─ mobile.jpg
 ├─ index.html
 ├─ script.js
 ├─ style.css
@@ -137,8 +137,8 @@ Las reglas de encriptación son las siguientes:
 
 ### 📸 Captura de pantalla
 <div align="center">
-  <img src="img\screenshots\image.png" alt="Captura de Escritorio" width="69.5%" style="margin-right: 20px;" />
-  <img src="img/screenshots/mobile-screenshot.png" alt="Captura Móvil" width="22.5%" />
+  <img src="img/screenshots/image.png" alt="Captura de Escritorio" width="69.5%" style="margin-right: 20px;" />
+  <img src="img/screenshots/mobile.jpg" alt="Captura Móvil" width="22.5%" />
 </div>
 
 ### Estructura del proyecto
@@ -150,8 +150,8 @@ encriptador-texto/
 │   ├─ frame7.png
 │   ├─ logo.png
 │   └─ screenshots/
-│       ├─ desktop-screenshot.png
-│       └─ mobile-screenshot.png
+│       ├─ image.png
+│       └─ mobile.jpg
 ├─ index.html
 ├─ script.js
 ├─ style.css
