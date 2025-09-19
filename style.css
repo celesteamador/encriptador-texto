@@ -11,28 +11,21 @@ body{
     font-size: 32px;
     line-height: 150%;
     min-height: 100vh;
-    position: relative;
-}
-
-header{
-    position: relative;
-    height: 80px;
 }
 
 .logo{
-    padding-top: 20px;
-    margin-left: 10px;
-    width: 10%;
+    padding: 20px 0 0 40px;
+    width: 120px;
+    height: auto;
 }
 
 main{
     display: flex;
     gap: 40px;
-    padding: 20px 40px 0 40px;
+    padding: 0 40px;
     max-width: 1200px;
     margin: 0 auto;
     align-items: flex-start;
-    margin-top: 60px;
 }
 
 .seccion-entrada{
@@ -168,16 +161,9 @@ main{
 
 /* Media Queries para responsividad */
 @media (max-width: 768px) {
-    .logo {
-        top: 15px;
-        left: 20px;
-        width: 28px;
-    }
-    
     main {
         flex-direction: column;
         padding: 0 20px;
-        margin-top: 50px;
     }
     
     .seccion-resultado {
